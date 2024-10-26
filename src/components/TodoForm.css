@@ -1,0 +1,22 @@
+.TodoForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.TodoForm input[type="text"],
+.TodoForm input[type="date"] {
+  padding: 8px;
+  margin: 0 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.TodoForm button {
+  background-color: #28a745;
+}
+
+.TodoForm button:hover {
+  background-color: #218838;
+}

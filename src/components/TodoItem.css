@@ -1,0 +1,54 @@
+.TodoItem {
+  display: flex;
+  align-items: center;
+}
+
+.TodoItem input[type="checkbox"] {
+  margin-right: 10px;
+}
+.TodoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.TodoItem .todoText {
+  flex: 1;
+  cursor: pointer;
+}
+
+.TodoItem .todoText.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.TodoItem .todoText.overdue {
+  color: red;
+}
+
+.TodoItem button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.TodoItem button:hover {
+  background-color: #0056b3;
+}
+
+.checkbox {
+  cursor: pointer;
+}
+
+.todoText {
+  cursor: default;
+}
